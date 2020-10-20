@@ -1,0 +1,272 @@
+header {
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    background: #fff;
+}
+
+.header-menu a,
+.header-search a {
+    color: #5D257C;
+    font-size: 20px;
+}
+
+.header-logo img {
+    width: 120px;
+}
+
+.slider {
+    height: 550px;
+}
+
+.slider-container {
+    position: relative;
+    display: flex;
+}
+
+.slider-text {
+    flex-basis: 30%;
+}
+
+.slider-img {
+    background: #5D257C;
+    flex-basis: 70%;
+    position: relative;
+    height: 550px;
+}
+
+.slider-img img {
+    position: absolute;
+    width: 795px;
+    height: 550px;
+}
+
+.post {
+    background: #5D257C;
+    padding: 0px 150px;
+}
+
+.slider-text-content a.slider-button {
+    font-size: 13px;
+    line-height: 30px;
+    padding: 4px 20px;
+    border: 2px solid #772F9F;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.slider-text-content a.cat {
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+}
+
+.slider-text-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.slider-text-content {
+    background: #5D257C;
+    padding: 30px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+
+.post-image {
+    flex-basis: 50%;
+}
+
+.post-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.post-content {
+    flex-basis: 50%;
+    background: #fff;
+    padding: 20px;
+}
+
+.post-content-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.post-content-top a {
+    color: #5d257c;
+}
+
+.post-title {
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: left;
+    display: block;
+    color: #000;
+    
+}
+
+.post-content p {
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.post-content a.post-button {
+    font-size: 13px;
+    line-height: 30px;
+    padding: 4px 20px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+}
+
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-card {
+    flex-basis: 50%;
+    display: flex;
+    height: 440px;
+}
+.grid{
+    position: relative;
+    z-index: 1;
+    padding: 0px 150px;
+}
+.grid-main{
+    display: flex;
+}
+hr{
+    color: #7d5196;
+}
+.footer{
+    position: relative;
+}
+.footer-top{
+    display: flex;
+    background: #F7F7F7;
+    padding: 50px 150px;
+}
+.footer-bottom{
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top-logo img{
+    width: 150px;
+}
+.footer-top-logo{
+    flex-basis: 20%;
+}
+.footer-top-menu{
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-top-menu ul li:nth-last-child(1) a::after{
+    content: '';
+    height: 0px;
+}
+.footer-top-menu ul li a::after{
+    content: '';
+    width: 100px;
+    top: 50%;
+    left: 90px;
+    position: absolute;
+    height: 1px;
+    background: #eee;
+}
+.footer-top-menu ul li a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 60px;
+    margin-left: 150px;
+    color: #000;
+    position: relative;
+}
+.footer-top-menu ul{
+    display: flex;
+    
+} 
+.footer-bottom-copyright{
+    font-size: 13px;
+    color: #777;
+}
+.footer-bottom-social ul{
+    display: flex;
+}
+.footer-bottom-social ul li a{
+    font-size: 25px;
+    margin-left: 10px;
+    color: #999;
+}
+.ins{
+    padding: 100px 400px;
+    background: #fff;
+}
+.ins-con a{
+    color: #222;
+    font-weight: 600;
+}
+.ins-con{
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+    color: #222;
+    padding: 50px;
+}
+.cat{
+    position: relative;
+}
+.cat-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.cat-container{
+    display: flex;
+    height: 700px;
+}
+.cat-one{
+    flex-basis: 30%;
+    background-image: url(img/Photo6.png);
+}
+.cat-two{
+    flex-basis: 55%;
+    background-image: url(img/Photo7.png);
+    align-items: flex-end;
+    font-size: 50px;
+    font-weight: 700;
+}
+.cat-three{
+    flex-basis: 15%;
+    background-image: url(img/Photo8.png);
+    font-size: 30px;
+    font-weight: 700;
+}
